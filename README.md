@@ -44,7 +44,7 @@ Now, simply start the chroot shell with the following command:
 ```
 Once within the chroot shell, run the tool we passed to it with:
 ```bash
-/etc/live-tools/dciso init # installs a lot of stuff
+/etc/live-tools/dciso in-init # installs a lot of stuff
 /etc/live-tools/dciso in-start-chroot # starts the chroot and mounts stuff for x11
 ```
 Now, we are ready to begin installing packages and making our customizations. If you install `Xfce4`, you can simply run `startx` from the command line and customize the desktop/menus/etc.
@@ -61,7 +61,7 @@ It will recommend that you reboot - please do to ensure that nothing is mounted 
 ## Generate the ISO
 Finally, generate the ISO file with the following command:
 ```bash
-./dciso geniso (ISO NAME).iso
+./dciso mkiso (ISO NAME).iso
 ```
 
 # Demon Linux Specific Items
